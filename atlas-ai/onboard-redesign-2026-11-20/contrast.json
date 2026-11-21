@@ -1,0 +1,546 @@
+[
+  {
+    "label": "aurora: wordmark",
+    "selector": ".brand-word",
+    "px": 25,
+    "weight": "300",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 8.35,
+    "need": 3,
+    "pass": true,
+    "large": true,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0563,
+      "maxL": 0.0563,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "aurora: headline",
+    "selector": ".aurora-headline",
+    "px": 40,
+    "weight": "400",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 8.88,
+    "need": 3,
+    "pass": true,
+    "large": true,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0369,
+      "maxL": 0.0499,
+      "clusters": 3
+    }
+  },
+  {
+    "label": "aurora: sub copy",
+    "selector": ".aurora-sub",
+    "px": 15,
+    "weight": "400",
+    "fg": "rgb(169, 189, 178)",
+    "ratio": 5.36,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.4804,
+      "minL": 0.0325,
+      "maxL": 0.049,
+      "clusters": 4
+    }
+  },
+  {
+    "label": "aurora: powered-by",
+    "selector": ".aurora-foot span",
+    "px": 11,
+    "weight": "400",
+    "fg": "rgb(169, 189, 178)",
+    "ratio": 5.62,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.4804,
+      "minL": 0.042,
+      "maxL": 0.0445,
+      "clusters": 2
+    }
+  },
+  {
+    "label": "aurora: ACTIVE step label",
+    "selector": ".step-labels .step-label:nth-child(1)",
+    "px": 15,
+    "weight": "600",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 9.08,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0338,
+      "maxL": 0.0478,
+      "clusters": 3
+    }
+  },
+  {
+    "label": "aurora: inactive step label",
+    "selector": ".step-labels .step-label:nth-child(2)",
+    "px": 15,
+    "weight": "400",
+    "fg": "rgb(169, 189, 178)",
+    "ratio": 5.62,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.4804,
+      "minL": 0.0323,
+      "maxL": 0.0443,
+      "clusters": 3
+    }
+  },
+  {
+    "label": "aurora: active dot (Low End on Overtone)",
+    "selector": ".step-dot.active",
+    "px": 13,
+    "weight": "500",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 7.8,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.421,
+      "maxL": 0.421,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "aurora: inactive step label (last)",
+    "selector": ".step-labels .step-label:nth-child(4)",
+    "px": 15,
+    "weight": "400",
+    "fg": "rgb(169, 189, 178)",
+    "ratio": 6.6,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.4804,
+      "minL": 0.0304,
+      "maxL": 0.0304,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "aurora: inactive dot number",
+    "selector": ".progress-steps .step-dot:nth-child(3)",
+    "px": 13,
+    "weight": "500",
+    "fg": "rgb(169, 189, 178)",
+    "ratio": 6.92,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.4804,
+      "minL": 0.0266,
+      "maxL": 0.0266,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: step heading 46px",
+    "selector": ".step-heading",
+    "px": 46,
+    "weight": "400",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 3,
+    "pass": true,
+    "large": true,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: step sub",
+    "selector": ".step-sub",
+    "px": 15,
+    "weight": "400",
+    "fg": "rgb(74, 94, 87)",
+    "ratio": 6.62,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1015,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: field label",
+    "selector": ".field label",
+    "px": 13,
+    "weight": "600",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: field hint",
+    "selector": ".field-hint",
+    "px": 12.5,
+    "weight": "400",
+    "fg": "rgb(91, 110, 103)",
+    "ratio": 5.18,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1436,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: mono step caption",
+    "selector": ".form-step-caption",
+    "px": 11,
+    "weight": "400",
+    "fg": "rgb(91, 110, 103)",
+    "ratio": 5.18,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1436,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: back-to-dashboard",
+    "selector": ".top-bar-back",
+    "px": 13,
+    "weight": "600",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: Continue pill (Carrier)",
+    "selector": ".btn-next",
+    "px": 15,
+    "weight": "600",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 6.66,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0834,
+      "maxL": 0.0834,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: summary mono key",
+    "selector": ".sum-key",
+    "px": 11,
+    "weight": "400",
+    "fg": "rgb(91, 110, 103)",
+    "ratio": 5.42,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1436,
+      "minL": 1,
+      "maxL": 1,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: summary value",
+    "selector": ".sum-val",
+    "px": 14,
+    "weight": "400",
+    "fg": "rgb(74, 94, 87)",
+    "ratio": 6.93,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1015,
+      "minL": 1,
+      "maxL": 1,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: Launch pill (Carrier)",
+    "selector": ".btn-submit",
+    "px": 15,
+    "weight": "600",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 6.66,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0834,
+      "maxL": 0.0834,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "form: Back outline pill",
+    "selector": "#step4 .btn-back",
+    "px": 15,
+    "weight": "600",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "success: title",
+    "selector": ".success-title",
+    "px": 40,
+    "weight": "400",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 3,
+    "pass": true,
+    "large": true,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "success: sub",
+    "selector": ".success-sub",
+    "px": 15,
+    "weight": "400",
+    "fg": "rgb(74, 94, 87)",
+    "ratio": 6.62,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1015,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "success: client-id label",
+    "selector": ".client-id-label",
+    "px": 11,
+    "weight": "400",
+    "fg": "rgb(38, 91, 70)",
+    "ratio": 6.66,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0834,
+      "minL": 0.8378,
+      "maxL": 0.8378,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "success: client-id value",
+    "selector": ".client-id-value",
+    "px": 13,
+    "weight": "400",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 14.71,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.8378,
+      "maxL": 0.8378,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "success: what-happens-next heading",
+    "selector": ".next-steps h4",
+    "px": 13,
+    "weight": "700",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 17.4,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 1,
+      "maxL": 1,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "success: next-step item",
+    "selector": ".next-steps li",
+    "px": 13.5,
+    "weight": "400",
+    "fg": "rgb(74, 94, 87)",
+    "ratio": 6.93,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1015,
+      "minL": 1,
+      "maxL": 1,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "390: wordmark on 160px header",
+    "selector": ".brand-word",
+    "px": 25,
+    "weight": "300",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 6.72,
+    "need": 3,
+    "pass": true,
+    "large": true,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0821,
+      "maxL": 0.0821,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "390: mono step counter",
+    "selector": ".aurora-step",
+    "px": 11,
+    "weight": "400",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 6.26,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0918,
+      "maxL": 0.0918,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "390: step heading",
+    "selector": ".step-heading",
+    "px": 34,
+    "weight": "400",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 3,
+    "pass": true,
+    "large": true,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "390: step sub",
+    "selector": ".step-sub",
+    "px": 15,
+    "weight": "400",
+    "fg": "rgb(74, 94, 87)",
+    "ratio": 6.62,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.1015,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "390: field label",
+    "selector": ".field label",
+    "px": 13,
+    "weight": "600",
+    "fg": "rgb(12, 29, 27)",
+    "ratio": 16.63,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.0104,
+      "minL": 0.9535,
+      "maxL": 0.9535,
+      "clusters": 1
+    }
+  },
+  {
+    "label": "390: Continue pill",
+    "selector": ".btn-next",
+    "px": 15,
+    "weight": "600",
+    "fg": "rgb(227, 239, 230)",
+    "ratio": 6.66,
+    "need": 4.5,
+    "pass": true,
+    "large": false,
+    "detail": {
+      "fgL": 0.8378,
+      "minL": 0.0834,
+      "maxL": 0.0834,
+      "clusters": 1
+    }
+  }
+]
